@@ -1,0 +1,6 @@
+{
+    "watch": ["app/api/**"],
+    "ignore": ["node_modules", ".next"],
+    "ext": "js,json,ts",
+    "exec": "next dev"
+  }
