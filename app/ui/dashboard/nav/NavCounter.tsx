@@ -22,7 +22,7 @@ const NavCounter: React.FC<TNavCounterProps> = ({ count, description, icon }) =>
     return (
       <div className="flex items-center">
         {icon}
-        <span className="text-white text-md">{label}</span>
+        <span className="">{label}</span>
       </div>
     );
   };

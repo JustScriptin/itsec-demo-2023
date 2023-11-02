@@ -1,12 +1,10 @@
-'use client'
 import type { Metadata } from 'next'
-import LabeledIcon from '../ui/LabeledIcon'
-import { BookMarkIcon } from '../ui/svgs'
+import Nav from '../ui/dashboard/nav/Nav'
 
-// export const metadata: Metadata = {
-//   title: 'Dashboard',
-//   description: 'Dashboard - Itsec demo',
-// }
+export const metadata: Metadata = {
+  title: 'Dashboard',
+  description: 'Dashboard - Itsec demo',
+}
 
 export default function DashboardLayout({
     children,
@@ -15,7 +13,7 @@ export default function DashboardLayout({
   }) {
   return (
     <>
-    <LabeledIcon icon={<BookMarkIcon/>} label="Dashboard" vertical/>
+    <Nav />
     {children}
     </>
   )
